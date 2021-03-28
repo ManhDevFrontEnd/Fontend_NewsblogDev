@@ -1,0 +1,64 @@
+.item{
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+    height: 245px;
+    margin: auto;
+  
+    background: white;
+  
+  }
+  
+.owl-nav{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.owl-nav img{
+    height: 56px;
+    width: 29px;
+    border-radius: 6px;
+    background: white;
+}
+
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+  background:none!important;
+  outline: none !important;
+  opacity: 1;
+}  
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    outline: none;
+  }
+  
+  .owl-prev{
+    width: 15px;
+    right:  -5px;
+    top: -170px;
+
+ 
+  }
+  .owl-next{
+    width: 15px;
+    left: -5px;
+    
+    top: -170px;
+}
+.owl-next .fas,.owl-prev .fas{
+  font-size: 25px;
+}
+.owl-next .fas:hover,.owl-prev:hover{
+  color:#FF3D00;
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+  color: #FF3D00;
+}
+  
+
+  
+  .owl-prev, .owl-next{
+    position:absolute;
+  }
+  .p-25{
+      padding: 0px 25px;
+  }
